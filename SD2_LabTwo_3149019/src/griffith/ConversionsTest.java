@@ -27,7 +27,7 @@ public class ConversionsTest {
 	}
 	
 	//Failing Dollar to Euro test to commit
-	
+	//UPDATE: test PASSED
 	@Test
 	public void testDollarToEuro() {
 		double dollar = 100.0;
