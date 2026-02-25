@@ -58,6 +58,7 @@ public class ConversionsTest {
 	}
 	
 	//Failing Integer to String test to commit
+	//UPDATE: test PASSED
 	@Test
 	public void testIntegerToString() {
 		int value = 123;
