@@ -12,7 +12,7 @@ public class Conversions {
 	}
 	
 	public double dollarToEuro(double dollar) {
-		return 0;
+		return dollar / 1.1; // Assuming 1 Dollar = 0.909 Euros
 	}
 	
 	public int stringToInteger(String val) {
