@@ -7,7 +7,7 @@ public class Conversions {
 	//methods stub to be implemented
 
 	public double euroToDollar(double euro) {
-		return 0;
+		return euro * 1.1; // Assuming 1 Euro = 1.1 Dollars
 		
 	}
 	
