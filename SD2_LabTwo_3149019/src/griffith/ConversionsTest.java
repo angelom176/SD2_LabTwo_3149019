@@ -72,7 +72,34 @@ public class ConversionsTest {
 	
 	}
 	
-	public void testSwitchCase() {
+	//Failing Switch Case test to commit
 	
+	@Test
+	public void testSwitchCase() {
+		
+		assertEquals("hELLO", c.switchCase("Hello"));
+		
+		assertEquals("wORLD", c.switchCase("World"));
+		
+		assertEquals("", c.switchCase(""));
 	}
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
