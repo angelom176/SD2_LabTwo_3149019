@@ -24,8 +24,13 @@ public class Conversions {
 		}
 	}
 	
+	// Convert integer to string
 	public String integerToString(int val) {
-		return null;
+		try {
+			return Integer.toString(val);
+		} catch (Exception e) {
+			return ""; // Return empty string for any unexpected error
+		}
 	}
 	
 	public String switchCase() {
