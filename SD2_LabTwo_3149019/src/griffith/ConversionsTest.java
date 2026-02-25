@@ -42,6 +42,7 @@ public class ConversionsTest {
 	}
 	
 	//Failing String to Integer test to commit
+	//UPDATE: test PASSED
 	
 	@Test
 	public void testStringToInteger() {
