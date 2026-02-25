@@ -35,7 +35,20 @@ public class Conversions {
 	
 	// I had to add a parameter to make this method work, since it was not clear what the input should be.
 	public String switchCase(String val) {
-		return null;
+		if (val == null) {
+			return "";
+			}
+		// Switch case for each character in the string
+		char[] chars = val.toCharArray();
+		for (int i = 0; i < chars.length; i++) {
+			char c = chars[i];
+			if (Character.isUpperCase(c)) {
+				chars[i] = Character.toLowerCase(c);
+			} else if (Character.isLowerCase(c)) {
+				chars[i] = Character.toUpperCase(c);
+			}
+		}
+		return new String(chars);
 	}
 
 }
