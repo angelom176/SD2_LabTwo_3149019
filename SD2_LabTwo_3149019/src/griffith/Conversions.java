@@ -33,7 +33,8 @@ public class Conversions {
 		}
 	}
 	
-	public String switchCase() {
+	// I had to add a parameter to make this method work, since it was not clear what the input should be.
+	public String switchCase(String val) {
 		return null;
 	}
 
