@@ -1,6 +1,10 @@
 package griffith;
 
+//Name: Angelo Jose Medeiros de Macedo Filho | Student N: 3149019
+
 public class Conversions {
+	
+	//methods stub to be implemented
 
 	public double euroToDollar(double euro) {
 		return 0;
