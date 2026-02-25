@@ -73,7 +73,7 @@ public class ConversionsTest {
 	}
 	
 	//Failing Switch Case test to commit
-	
+	//Updated: test PASSED
 	@Test
 	public void testSwitchCase() {
 		
