@@ -57,7 +57,17 @@ public class ConversionsTest {
 	
 	}
 	
+	//Failing Integer to String test to commit
+	@Test
 	public void testIntegerToString() {
+		int value = 123;
+		assertEquals("123", c.integerToString(value));
+		
+		int negativeValue = -456;
+		assertEquals("-456", c.integerToString(negativeValue));
+		
+		int zeroValue = 0;
+		assertEquals("0", c.integerToString(zeroValue));
 	
 	}
 	
