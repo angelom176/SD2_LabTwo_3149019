@@ -15,8 +15,13 @@ public class Conversions {
 		return dollar / 1.1; // Assuming 1 Dollar = 0.909 Euros
 	}
 	
+	// Convert string to integer, return 0 for invalid input
 	public int stringToInteger(String val) {
-		return 0;
+		try {
+			return Integer.parseInt(val);
+		} catch (NumberFormatException e) {
+			return 0; // Return 0 for invalid input
+		}
 	}
 	
 	public String integerToString(int val) {
