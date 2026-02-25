@@ -2,10 +2,25 @@ package griffith;
 
 public class Conversions {
 
-	public static String inchesToCentimeters(int i) {
-		// TODO Auto-generated method stub
-		return i * 2.54 + " cm";
+	public double euroToDollar(double euro) {
+		return 0;
 		
+	}
+	
+	public double dollarToEuro(double dollar) {
+		return 0;
+	}
+	
+	public int stringToInteger(String val) {
+		return 0;
+	}
+	
+	public String integerToString(int val) {
+		return null;
+	}
+	
+	public String switchCase() {
+		return null;
 	}
 
 }
