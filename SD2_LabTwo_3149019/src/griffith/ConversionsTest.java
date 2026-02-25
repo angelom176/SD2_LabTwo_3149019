@@ -11,9 +11,11 @@ public class ConversionsTest {
 	
 	// Test for euroToDollar method
 	// failing test to commit
+	
+	//UODATE: test PASSED
 	@Test
 	public void testEuroToDollar() {
-		double euro = 110.0;
+		double euro = 100.0;
 		assertEquals(110.0, c.euroToDollar(euro), 0.001);
 		
 		double negativeEuro	 = -50.0;
@@ -24,8 +26,18 @@ public class ConversionsTest {
 		
 	}
 	
+	//Failing Dollar to Euro test to commit
 	
+	@Test
 	public void testDollarToEuro() {
+		double dollar = 100.0;
+		assertEquals(90.909, c.dollarToEuro(dollar), 0.001);
+		
+		double negativeDollar = -50.0;
+		assertEquals(-45.455, c.dollarToEuro(negativeDollar), 0.001);
+		
+		double zeroDollar = 0.0;
+		assertEquals(0.0, c.dollarToEuro(zeroDollar), 0.001);
 		
 	}
 	
