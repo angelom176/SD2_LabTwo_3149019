@@ -41,7 +41,18 @@ public class ConversionsTest {
 		
 	}
 	
+	//Failing String to Integer test to commit
+	
+	@Test
 	public void testStringToInteger() {
+		String validString = "123";
+		assertEquals(123, c.stringToInteger(validString));
+		
+		String invalidString = "abc";
+		assertEquals(0, c.stringToInteger(invalidString));	
+		
+		String emptyString = "";
+		assertEquals(0, c.stringToInteger(emptyString));
 	
 	}
 	
